@@ -40,18 +40,16 @@ WHEN the user reestablishes an internet connection
 
 THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
 
-I began with what I most recently learned and worked back from there, beginning with the manifest, moving to the service worker, and then to the idb.js file. The vast majority, if not all of 
-<!-- My first major complication I ran into for this challenge was adding friends. The grading criteria stated that adding friends should be done through a POST route, but when I tried to do that, Insomnia kept asking for the corresponding email and username. I knew, however, that I could get and add the friend's id fairly easily using a PUT method. Looking again at the criteria, I saw that the friend's ID was all I needed for the friends array, so I decided to go ahead and change it to a PUT method, since a working program that gets the same result is better than a non-working one that follows every guideline. I ended up having to do the same thing for deleting a friend, but I also had to create a different route so it wouldn't intefere with the other PUT route.  -->
-
+I began with what I most recently learned and worked back from there, beginning with the manifest, moving to the service worker, and then to the idb.js file. The vast majority, if not all of, off the process was done by rereading the last two modules and making proper changes to the names. Any difficulties were resolved by double checking the lesson information. 
 
 
 
 
 ## Installation
 
-<!-- Links to the repository and the deployed page can be found at [Questions](#questions).
+Links to the repository and the deployed page can be found at [Questions](#questions).
 
-While this project's repository is available on Github, there is no front end, and thus it is not deployed. If you clone the repo you must run the command "npm install" on the Terminal/Command Line and download the dependencies, all of which are mentioned in [Credits](#credits).  -->
+While this project's repository is available on Github, the page is deployed to heroku. If you clone the repo you must run the command "npm install" on the Terminal/Command Line and download the dependencies, most of which are mentioned in [Credits](#credits). 
 
 
 
@@ -87,7 +85,7 @@ If you make changes, test it locally on a branch before pushing to main. Clone f
 
 ## Tests
 
-No Jest tests written were made for this project, but Chrome DevTools is a critical tool in letting you test the program's ability to run in different environments to test its offline capabilities. 
+No tests written were made for this project, but Chrome DevTools is a critical tool in letting you test the program's ability to run in different environments to test its offline capabilities. 
 
 
 ## Questions
@@ -98,9 +96,9 @@ The github repository to this project is below:
 [https://github.com/willjduncan/cuddly-pinnacle.git](https://github.com/willjduncan/cuddly-pinnacle.git)
 
 
-The site to the live website is below:
+The live website is deployed on heroku. The URL is below:
 
-[https://willjduncan.github.io/cuddly-pinnacle/](https://willjduncan.github.io/cuddly-pinnacle/)
+[https://secure-hollows-12001.herokuapp.com/](https://secure-hollows-12001.herokuapp.com/)
 
 
 For any additional questions, I can be reached at the following
